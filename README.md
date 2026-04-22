@@ -16,6 +16,7 @@ The `ptac/` namespace captures principles from the Plain-Text-as-Code philosophy
 |----|---------|
 | `PTAC-PLAIN-TEXT-FIRST` | Prefer plain text formats over binary; keep everything diffable and human-readable. |
 | `PTAC-COMPOSABLE-FILES` | Design files to be small, focused, and composable rather than large and monolithic. |
+| `PTAC-NAVIGABLE-DIRS` | Every plain-text directory must contain an `INDEX.md` (AI navigation) and a `README.md` (human description, rendered on GitHub). |
 | `PTAC-NO-GENERATED-BLOBS` | Avoid committing generated or binary blobs; commit source and generation instructions instead. |
 
 ---
@@ -58,6 +59,7 @@ cd /path/to/dot-principles
 # In any .principles file
 PTAC-PLAIN-TEXT-FIRST
 PTAC-COMPOSABLE-FILES
+PTAC-NAVIGABLE-DIRS
 PTAC-NO-GENERATED-BLOBS
 
 # Or activate all PTAC principles as a group
@@ -90,6 +92,7 @@ example-catalog/
 │       ├── .context-inspect.md
 │       ├── ptac-plain-text-first.md
 │       ├── ptac-composable-files.md
+│       ├── ptac-navigable-dirs.md
 │       └── ptac-no-generated-blobs.md
 └── groups/
     └── ptac.yaml
