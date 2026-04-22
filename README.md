@@ -15,6 +15,7 @@ The `ptac/` namespace captures principles from the Plain-Text-as-Code philosophy
 | ID | Summary |
 |----|---------|
 | `PTAC-PLAIN-TEXT-FIRST` | Prefer plain text formats over binary; keep everything diffable and human-readable. |
+| `PTAC-DIAGRAMS-AS-CODE` | Store diagrams as plain-text source (Mermaid, PlantUML, C4-DSL, Graphviz); render at build time. |
 | `PTAC-COMPOSABLE-FILES` | Design files to be small, focused, and composable rather than large and monolithic. |
 | `PTAC-LEAN-CONTENT` | Keep plain-text content DRY and front-loaded; every line must earn its place. |
 | `PTAC-NAVIGABLE-DIRS` | Every plain-text directory must contain an `INDEX.md` (AI navigation) and a `README.md` (human description, rendered on GitHub). |
@@ -59,6 +60,7 @@ cd /path/to/dot-principles
 ```
 # In any .principles file
 PTAC-PLAIN-TEXT-FIRST
+PTAC-DIAGRAMS-AS-CODE
 PTAC-COMPOSABLE-FILES
 PTAC-LEAN-CONTENT
 PTAC-NAVIGABLE-DIRS
@@ -93,6 +95,7 @@ example-catalog/
 │       ├── .context-audit.md
 │       ├── .context-inspect.md
 │       ├── ptac-plain-text-first.md
+│       ├── ptac-diagrams-as-code.md
 │       ├── ptac-composable-files.md
 │       ├── ptac-lean-content.md
 │       ├── ptac-navigable-dirs.md
