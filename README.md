@@ -92,6 +92,7 @@ example-catalog/
 │       ├── .context-prime.md
 │       ├── .context-audit.md
 │       ├── .context-inspect.md
+│       ├── .context-scout.md
 │       ├── ptac-plain-text-first.md
 │       ├── ptac-composable-files.md
 │       ├── ptac-lean-content.md
