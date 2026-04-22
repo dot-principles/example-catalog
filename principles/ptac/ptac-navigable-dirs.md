@@ -24,6 +24,7 @@ Without navigation aids, AI tools must speculatively read every file to understa
 - A plain-text directory with no `INDEX.md` (AI must guess the structure from filenames alone)
 - A `README.md` that also tries to be an index (too long, two concerns mixed)
 - An `INDEX.md` that explains purpose instead of listing content
+- `README.md` and `INDEX.md` that duplicate each other — same tables or descriptions repeated in both files (DRY violation)
 - Subdirectories added without updating the parent's `INDEX.md`
 
 ## Good practice
